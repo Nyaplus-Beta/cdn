@@ -54,7 +54,7 @@
 			{"file":"motions/idle.mtn"}
 		]
 	},
-	"physics":"physics.json",
+	"physics":"yazakura.physics.json",
 	"project_settings":"embed://111.json",
 	"name":"",
 	"layout":
