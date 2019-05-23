@@ -1,0 +1,55 @@
+﻿{
+    "type":"Live2D Model Setting",
+    "name":"AOI",
+    "model":"AOI.moc",
+    "textures":
+    [
+        "AOI/AOI_texture_00.png",
+        "AOI/AOI_texture_01.png",
+        "AOI/AOI_texture_02.png",
+        "AOI/AOI_texture_03.png"
+    ],
+    "physics":"aoi.physics.json",
+    "pose":"aoi.pose.json",
+    "expressions":
+    [
+        {"name":"f01","file":"motions/expressions/f01.exp.json"},
+        {"name":"f02","file":"motions/expressions/f02.exp.json"},
+        {"name":"f03","file":"motions/expressions/f03.exp.json"},
+        {"name":"f04","file":"motions/expressions/f04.exp.json"}
+    ],
+    "layout":
+    {
+        "center_x": -0.1,
+        "y":1.5,
+        "width":2.0
+    },
+    "hit_areas":
+    [
+        {"name":"body", "id":"D_UNIFORM.01"},
+        {"name":"face", "id":"D_FACE.00"}
+    ],
+    "motions":
+    {
+        "idle":
+        [
+            {"file":"motions/idle/idle_01.mtn" ,"fade_in":2000, "fade_out":2000},
+            {"file":"motions/idle/idle_02.mtn" ,"fade_in":2000, "fade_out":2000},
+            {"file":"motions/idle/idle_03.mtn" ,"fade_in":2000, "fade_out":2000},
+            {"file":"motions/idle/idle_04.mtn" ,"fade_in":2000, "fade_out":2000}
+        ],
+        "tap_body":
+        [
+            { "file":"motions/kurakura/kurakura1.mtn" },
+            { "file":"motions/kurakura/kurakura2.mtn" },
+            { "file":"motions/kurakura/kurakura3.mtn" },
+            { "file":"motions/touch/touch1.mtn" },
+            { "file":"motions/touch/touch2.mtn" },
+            { "file":"motions/touch/touch3.mtn" },
+            { "file":"motions/touch/touch4.mtn" },
+            { "file":"motions/action/001.mtn" },
+            { "file":"motions/action/002.mtn" },
+            { "file":"motions/action/003.mtn" }
+        ]
+    }
+}
