@@ -1,0 +1,118 @@
+{
+  "model": "Nya.moc",
+  "textures": [
+    "Nya.2048/texture_00.png",
+	"Nya.2048/texture_01.png"
+  ],
+  
+  "bubble": {
+    "x": 0,
+    "y": -150
+  },
+  "hit_areas": [
+    {
+      "name": "nekol",
+      "id": "D_REF.NEKOL"
+    },
+    {
+      "name": "nekor",
+      "id": "D_REF.NEKOR"
+    },
+    {
+      "name": "RYpr",
+      "id": "D_REF.RY"
+    }
+  ],
+  "motions": {
+    "tap_nekol": [
+      {
+        "file": "motions/tap/EACBET_tap_3.mtn",
+        "text": "喵~呜~！",
+        "fade": -1,
+        "priority": 0
+      }
+    ],
+    "tap_nekor": [
+      {
+        "file": "motions/tap/EACBET_tap_3.mtn",
+        "text": "咪嗷呜！",
+        "fade": -1,
+        "priority": 0
+      }
+    ],
+    "tap_RYpr": [
+      {
+        "file": "motions/tap/EACBET_tap_4.mtn",
+        "fade": -1,
+		"priority": 0,
+		"text": "Hentai！",
+		"fade_in": 150
+		
+      } 
+    ],
+    "idle": [
+      {
+        "file": "motions/ldie/EACBET_idle_02.mtn",
+        "fade": -1,
+        "priority": 0
+      },
+      {
+        "file": "motions/ldie/EACBET_idle_03.mtn",
+        "fade": -1,
+        "priority": 0
+      },
+      {
+        "file": "motions/ldie/EACBET_idle_01.mtn",
+        "fade": -1,
+        "priority": 0
+      }
+    ]
+  },
+      "layout":
+    {
+        "center_x": -0.1,
+        "y":0.8,
+        "width":2.0
+    },
+  "expressions": [
+	{
+	  "name": "F01.exp.json",
+	  "file": "expressions/F01.exp.json"
+	},
+    {
+      "name": "F02.exp.json",
+      "file": "expressions/F02.exp.json"
+    },
+    {
+      "name": "F03.exp.json",
+      "file": "expressions/F03.exp.json"
+    },
+	{
+	  "name": "F04.exp.json",
+	  "file": "expressions/F04.exp.json"
+	},
+	{
+	  "name": "F05.exp.json",
+	  "file": "expressions/F05.exp.json"
+	},
+	{
+	  "name": "F06.exp.json",
+	  "file": "expressions/F06.exp.json"
+	},
+	{
+	  "name": "F07.exp.json",
+	  "file": "expressions/F07.exp.json"
+	},
+	{
+	  "name": "F08.exp.json",
+	  "file": "expressions/F08.exp.json"
+	},
+	{
+	  "name": "F09.exp.json",
+	  "file": "expressions/F09.exp.json"
+	}
+  ],
+  "physics": "Nya.physics.json",
+  "auto_breath": true,
+  "eye_blink": false
+}
