@@ -1,13 +1,13 @@
 ﻿{
     "type":"Live2D Model Setting",
-    "name":"AOI",
-    "model":"AOI.moc",
+    "name":"aoi",
+    "model":"aoi.moc",
     "textures":
     [
-        "AOI/AOI_texture_00.png",
-        "AOI/AOI_texture_01.png",
-        "AOI/AOI_texture_02.png",
-        "AOI/AOI_texture_03.png"
+        "aoi/aoi_texture_00.png",
+        "aoi/aoi_texture_01.png",
+        "aoi/aoi_texture_02.png",
+        "aoi/aoi_texture_03.png"
     ],
     "physics":"aoi.physics.json",
     "pose":"aoi.pose.json",
