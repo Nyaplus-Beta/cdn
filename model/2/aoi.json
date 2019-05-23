@@ -1,6 +1,5 @@
 ﻿{
-    "type":"Live2D Model Setting",
-    "name":"aoi",
+	"version":"AOI 1.0.0",
     "model":"aoi.moc",
     "textures":
     [
