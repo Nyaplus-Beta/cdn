@@ -60,9 +60,9 @@
 				}
 
 				//var modelFile = './models/al-liliya/al-liliyaX.pmx';
-				var modelFile = './models/白上フブキ2/白上フブキ2.pmx';
+				var modelFile = 'https://cdn.jsdelivr.net/gh/Nyaplus-Beta/cdn@3.2/3D/models/fbk/fbk.pmx';
 				//var modelFile = 'https://www.seaplay.vip/model/001miku_v2.pmd';
-				var vmdFiles = [ './models/vmds/girls_v.vmd'];
+				var vmdFiles = [ 'https://cdn.jsdelivr.net/gh/Nyaplus-Beta/cdn@3.1/3D/models/vmds/girls_v.vmd'];
 				//var vmdFiles = [ './actions/wavefile_v2.vmd'];
 				//var vmdFiles = ['https://www.seaplay.vip/model/001wavefile_v2.vmd'];
 				helper = new THREE.MMDAnimationHelper( {
